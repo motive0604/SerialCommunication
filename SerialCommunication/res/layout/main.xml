@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ButtonSendText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Start Send Text" />
+ 
+    <Button
+        android:id="@+id/ButtonStopSendText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Stop Send Text" />
+    
+    <Button
+        android:id="@+id/ButtonReceiveText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Start Receive Text" />
+        
+    <TextView
+        android:id="@+id/ReceiveText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+   
+    <Button
+        android:id="@+id/ButtonClearRxText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Clear receive text" />
+        
+    <Button
+        android:id="@+id/ButtonAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/ButtonQuit"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Quit" />
+    
+</LinearLayout>
