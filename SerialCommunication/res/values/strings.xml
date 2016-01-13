@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MangoV210 Serial</string>
-    <string name="about_msg">MangoV210 Serial Test - ZETA</string>
+    <string name="app_name">Serial communcation</string>
+    <string name="about_msg">https://github.com/motive0604/SerialCommunication</string>
 
 </resources>

@@ -12,8 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MangoSerialActivity extends Activity {
-	private static final String TAG = "SerialPort";
+public class JosephSerialActivity extends Activity {
+	private static final String TAG = "JosephSerialActivity";
 	/*
 	 * Do not remove or rename the field mFd: it is used by native method close();
 	 */
@@ -140,7 +140,7 @@ public class MangoSerialActivity extends Activity {
         final Button buttonAbout = (Button)findViewById(R.id.ButtonAbout);
         buttonAbout.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				AlertDialog.Builder builder = new AlertDialog.Builder(MangoSerialActivity.this);
+				AlertDialog.Builder builder = new AlertDialog.Builder(JosephSerialActivity.this);
 				builder.setTitle("About");
 				builder.setMessage(R.string.about_msg);
 				builder.show();
@@ -151,7 +151,7 @@ public class MangoSerialActivity extends Activity {
         buttonQuit.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				close();
-				MangoSerialActivity.this.finish();
+				JosephSerialActivity.this.finish();
 			}
 		});
     }
